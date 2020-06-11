@@ -14,7 +14,7 @@ let package = Package(
     .tvOS(.v11)
   ],
   products: [
-    .library(name: "iOSDFULibrary", targets: ["NordicDFU"])
+    .library(name: "iOSDFULibrary", targets: ["iOSDFULibrary"])
   ],
   dependencies: [
     .package(
@@ -24,7 +24,7 @@ let package = Package(
   ],
   targets: [
     .target(
-      name: "NordicDFU",
+      name: "iOSDFULibrary",
       dependencies: ["ZIPFoundation"],
       path: "iOSDFULibrary/Classes/"
     ),
