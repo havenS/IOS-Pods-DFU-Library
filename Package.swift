@@ -6,7 +6,7 @@
 import PackageDescription
 
 let package = Package(
-  name: "NordicDFU",
+  name: "iOSDFULibrary",
   platforms: [
     .macOS(.v10_14),
     .iOS(.v9),
@@ -14,7 +14,7 @@ let package = Package(
     .tvOS(.v11)
   ],
   products: [
-    .library(name: "NordicDFU", targets: ["NordicDFU"])
+    .library(name: "iOSDFULibrary", targets: ["NordicDFU"])
   ],
   dependencies: [
     .package(
