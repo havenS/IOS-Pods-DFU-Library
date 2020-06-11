@@ -32,7 +32,7 @@ let package = Package(
     // compile in Xcode.
     .testTarget(
       name: "Hex2BinConverterTests",
-      dependencies: ["NordicDFU"],
+      dependencies: ["iOSDFULibrary"],
       path: "Example/Tests/"
     )
   ],
