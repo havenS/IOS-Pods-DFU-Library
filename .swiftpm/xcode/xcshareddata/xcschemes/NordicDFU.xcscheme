@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "NordicDFU"
-               BuildableName = "NordicDFU"
-               BlueprintName = "NordicDFU"
+               BlueprintIdentifier = "iOSDFULibrary"
+               BuildableName = "iOSDFULibrary"
+               BlueprintName = "iOSDFULibrary"
                ReferencedContainer = "container:">
             </BuildableReference>
          </BuildActionEntry>
@@ -74,9 +74,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "NordicDFU"
-            BuildableName = "NordicDFU"
-            BlueprintName = "NordicDFU"
+            BlueprintIdentifier = "iOSDFULibrary"
+            BuildableName = "iOSDFULibrary"
+            BlueprintName = "iOSDFULibrary"
             ReferencedContainer = "container:">
          </BuildableReference>
       </MacroExpansion>
